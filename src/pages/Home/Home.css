@@ -9,18 +9,21 @@
     color: white;
 }
 
+.welcome-text {
+    max-width: 500px;
+}
+
 .welcome-text h2 {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: 10px;
 }
 
 .welcome-text p {
     font-size: 18px;
-    max-width: 450px;
 }
 
 .card-preview img {
-    width: 340px;
+    width: 320px;
     border-radius: 18px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
