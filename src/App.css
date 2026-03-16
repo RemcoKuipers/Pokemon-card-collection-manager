@@ -45,6 +45,7 @@ body {
 
 .layout {
     display: flex;
+    min-height: 100vh;
 }
 
 .content {
@@ -53,4 +54,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }

@@ -45,3 +45,23 @@
     width: 80px;
     margin-bottom: 20px;
 }
+
+.home-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+
+    margin-bottom: 30px;
+}
+
+.home-button span {
+    margin-top: 6px;
+    color: white;
+    font-size: 16px;
+}
+
+.pokeball {
+    width: 80px;
+}

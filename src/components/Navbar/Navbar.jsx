@@ -1,10 +1,17 @@
 import "./Navbar.css";
 import Pokeball from "../../assets/Pokeball.png"
+import {Link, useNavigate} from "react-router-dom";
+
 function Navbar() {
+
+    const navigate = useNavigate();
+
     return (
         <div className="sidebar">
-
-            <img src={Pokeball} alt="pokeball" className="pokeball" />
+            <Link to="/" className="home-button">
+                <img src={Pokeball} alt="pokeball" className="pokeball"/>
+                <span>Home</span>
+            </Link>
 
             <button className="sidebar-btn">Login</button>
             <button className="sidebar-btn">Account</button>
