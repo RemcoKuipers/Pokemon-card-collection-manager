@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import {  Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Search from "./pages/Search";
-import CardDetail from "./pages/CardDetail";
-import Collection from "./pages/Collection";
+import Home from "./pages/Home/Home.jsx";
+import Login from "./pages/Login/Login.jsx";
+import Register from "./pages/Register/Register.jsx";
+import Search from "./pages/Search/Search.jsx";
+import CardDetail from "./pages/CardDetail/CardDetail.jsx";
+import Collection from "./pages/Collection/Collection.jsx";
 
 function App() {
     return (
-        <BrowserRouter>
+
 
             <div className="layout">
 
@@ -29,7 +29,7 @@ function App() {
 
             </div>
 
-        </BrowserRouter>
+
     );
 }
 

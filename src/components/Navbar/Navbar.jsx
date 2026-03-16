@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import Pokeball from "../assets/Pokeball.png"
+import Pokeball from "../../assets/Pokeball.png"
 function Navbar() {
     return (
         <div className="sidebar">

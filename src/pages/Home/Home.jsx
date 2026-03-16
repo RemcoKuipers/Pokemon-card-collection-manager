@@ -1,5 +1,5 @@
 import "./Home.css";
-import HomeCard from "../assets/HomeCard.png"
+import HomeCard from "../../assets/HomeCard.png"
 function Home() {
     return (
         <div className="home">
