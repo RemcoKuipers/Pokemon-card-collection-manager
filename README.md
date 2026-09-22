@@ -45,5 +45,3 @@ as it grows.
 ## Project status
 
 ✅ Completed and successfully passed as my frontend graduation project.
-
-→ [View repository](https://github.com/RemcoKuipers/Pokemon-card-collection-manager)
